@@ -1,0 +1,20 @@
+.about_sec {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    .feature_item {
+        padding-left: 120px;
+        position: relative;
+        margin: 40px 0px;
+        img {
+            position: absolute;
+            left: 0;
+            width: 100px;
+        }
+        h5 {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 2px;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@import "../../../css/variable";
+
+.query_form_sec {
+    padding-bottom: 80px;
+    padding-top: 20px;
+    .query_form {
+        position: relative;
+        img {
+            position: relative;
+            height: 350px;
+        }
+        
+        .form_content {
+            position: absolute;
+            top: 125px;
+            left: 60px;
+            width: 65%;
+
+            h4 {
+                font-size: 21px;
+                line-height: 24px;
+                font-weight: 600;
+                margin-bottom: 5px;
+                text-transform: capitalize;
+            }
+
+            .form_area {
+                .col-md-4 {
+                    margin-bottom: 10px;
+                    .form-control {
+                        padding: 8px 12px;
+                        color: #000;
+                        height: auto;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                    .form-select {
+                        padding: 8px 12px;
+                        color: #000;
+                        height: auto;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                    .site_btn {
+                        width: 100%;
+                        border: none;
+                        padding: 8px;
+                        background-color: $secondaryColor;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

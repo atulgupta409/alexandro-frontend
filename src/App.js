@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Logo from "./images/logo.png";
 import Footer from './main/footer/Footer';
 import BottomForm from './pages/shared/bottom-form/BottomForm';
+import LocationDetail from './pages/location-detail-page/LocationDetail';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <Header Logo={Logo} />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/coworking-space-on-golf-course-road" element={<LocationDetail />} />
       </Routes>
       <BottomForm />
       <Footer socialLinks={socialLinks} />

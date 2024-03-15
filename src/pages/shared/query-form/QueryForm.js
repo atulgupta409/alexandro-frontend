@@ -50,7 +50,7 @@ const QueryForm = () => {
                                 />
                             </div>
                             <div className="col-md-4">
-                                <select class="form-select" aria-label="Default select example" name="typegp">
+                                <select className="form-select" aria-label="Default select example" name="typegp">
                                     <option value=">Property type" disabled>
                                     Property type
                                     </option>

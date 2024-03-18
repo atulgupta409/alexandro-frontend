@@ -1,8 +1,8 @@
 import React from 'react'
 import "./FlexiblePlans.scss"
-import hotDeskImg from "../../../images/hot-desk-cosapce.jpg";
-import dedicatedDeskImg from "../../../images/dedicated-desk-cospace.jpg";
-import privateCabinImg from "../../../images/private-cabin-cospace.jpg";
+import hotDeskImg from "../../../../images/hot-desk-cosapce.jpg";
+import dedicatedDeskImg from "../../../../images/dedicated-desk-cospace.jpg";
+import privateCabinImg from "../../../../images/private-cabin-cospace.jpg";
 
 const FlexiblePlans = () => {
 

@@ -4,15 +4,16 @@ body, p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   list-style: 20px;
-  color: #000;
+  color: #444;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #222;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
+  color: #222;
 }
 
 .container, .container-lg, .container-md {
@@ -28,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   border-radius: 6px;
   transition: all 0.5s;
+  border: none;
   &:hover {
     background-color: $blackColor;
   }

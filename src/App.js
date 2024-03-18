@@ -5,7 +5,8 @@ import Home from './pages/home/Home';
 import Logo from "./images/logo.png";
 import Footer from './main/footer/Footer';
 import BottomForm from './pages/shared/bottom-form/BottomForm';
-import LocationDetail from './pages/location-detail-page/LocationDetail';
+import LocationDetail from './pages/coworking/location-details/LocationDetail';
+import CoworkingDetail from './pages/coworking/coworking-details/CoworkingDetail';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/coworking-space-on-golf-course-road" element={<LocationDetail />} />
+        <Route exact path="/coworking-space/innov8-orchid-centre-golf-course-road" element={<CoworkingDetail />} />
       </Routes>
       <BottomForm />
       <Footer socialLinks={socialLinks} />

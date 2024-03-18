@@ -13,7 +13,7 @@ const CoworkingCard = () => {
     }
 
   return (
-    <Link to="">
+    <Link to="/coworking-space/innov8-orchid-centre-golf-course-road">
       <div className="coworking_card">
         <img src={coworkingCardDate.image} className="img-fluid m-auto d-block" alt="coworking space in golf course road gurgaon" />
         <div className="price-tag">

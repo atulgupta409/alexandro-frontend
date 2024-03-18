@@ -1,6 +1,6 @@
 import React from "react";
 import "./LocationCta.scss";
-import CoworkingFormBack from "../../../images/co-working-form-back.jpg";
+import CoworkingFormBack from "../../../../images/co-working-form-back.jpg";
 
 const LocationCta = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./TopSpace.scss";
-import CoworkingCard from "../../shared/coworking-card/CoworkingCard";
+import CoworkingCard from "../../coworking-card/CoworkingCard";
 
 const TopSpace = () => {
   return (

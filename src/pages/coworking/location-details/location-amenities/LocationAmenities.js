@@ -1,11 +1,11 @@
 import React from 'react'
 import "./LocationAmenities.scss"
-import wifiIcon from "../../../images/icons/wifi-icon.png";
-import coffeeIcon from "../../../images/icons/coffee-icon.png";
-import networkIcon from "../../../images/icons/network-icon.png";
-import commonAreasIcon from "../../../images/icons/common-areas-icon.png";
-import printerIcon from "../../../images/icons/printer-icon.png";
-import kitchenIcon from "../../../images/icons/kitchen-icon.png";
+import wifiIcon from "../../../../images/icons/wifi-icon.png";
+import coffeeIcon from "../../../../images/icons/coffee-icon.png";
+import networkIcon from "../../../../images/icons/network-icon.png";
+import commonAreasIcon from "../../../../images/icons/common-areas-icon.png";
+import printerIcon from "../../../../images/icons/printer-icon.png";
+import kitchenIcon from "../../../../images/icons/kitchen-icon.png";
 
 const LocationAmenities = () => {
 

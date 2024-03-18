@@ -8,7 +8,7 @@ const Footer = (props) => {
     const coworkingLinks = [
         {
             name: "Coworking space on Golf Course Road",
-            url: ""
+            url: "coworking-space/innov8-orchid-centre-golf-course-road"
         },
         {
             name: "Coworking space on Golf Course Extension Road",

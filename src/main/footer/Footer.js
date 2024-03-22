@@ -125,7 +125,7 @@ const Footer = (props) => {
     const alexandroSpaces = [
         {
             name: "Coworking Spaces",
-            url: ""
+            url: "/coworking-space-in-gurgaon"
         },
         {
             name: "Office Spaces",

@@ -1,17 +1,17 @@
 import React from "react";
-import "./LocationCta.scss";
-import CoworkingFormBack from "../../../../images/co-working-form-back.jpg";
+import "./CoworkingCta.scss";
+import CoworkingFormBack from "../../../images/co-working-form-back.jpg";
 
-const LocationCta = () => {
+const CoworkingCta = () => {
   return (
-    <section className="cta_sec">
+    <section className="coworking_cta_sec" style={{backgroundImage: `url(${CoworkingFormBack})`}}>
       <div className="container">
-        <div className="co-working-space" style={{backgroundImage: `url(${CoworkingFormBack})`}}>
+        <div className="co-working-space">
           <div className="overlay">
             <div className="row align-items-center">
               <div className="col-md-7">
                 <div className="co-working-title">
-                  <h4>Coworking Space Golf Course Road</h4>
+                  <h3>Coworking Space Golf Course Road</h3>
                   <p>
                     Best Coworking space in Gurgaon for Startups, Freelancers &
                     Established businesses.
@@ -150,4 +150,4 @@ const LocationCta = () => {
   );
 };
 
-export default LocationCta;
+export default CoworkingCta;

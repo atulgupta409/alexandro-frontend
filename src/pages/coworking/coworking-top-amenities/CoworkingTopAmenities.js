@@ -1,13 +1,13 @@
 import React from 'react'
-import "./LocationAmenities.scss"
-import wifiIcon from "../../../../images/icons/wifi-icon.png";
-import coffeeIcon from "../../../../images/icons/coffee-icon.png";
-import networkIcon from "../../../../images/icons/network-icon.png";
-import commonAreasIcon from "../../../../images/icons/common-areas-icon.png";
-import printerIcon from "../../../../images/icons/printer-icon.png";
-import kitchenIcon from "../../../../images/icons/kitchen-icon.png";
+import "./CoworkingTopAmenities.scss"
+import wifiIcon from "../../../images/icons/wifi-icon.png";
+import coffeeIcon from "../../../images/icons/coffee-icon.png";
+import networkIcon from "../../../images/icons/network-icon.png";
+import commonAreasIcon from "../../../images/icons/common-areas-icon.png";
+import printerIcon from "../../../images/icons/printer-icon.png";
+import kitchenIcon from "../../../images/icons/kitchen-icon.png";
 
-const LocationAmenities = () => {
+const CoworkingTopAmenities = () => {
 
     const amenitiesList = [
         {
@@ -43,7 +43,7 @@ const LocationAmenities = () => {
     ]
 
   return (
-    <section className='location_amenities_sec'>
+    <section className='coworking_top_amenities'>
         <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center">
@@ -66,4 +66,4 @@ const LocationAmenities = () => {
   )
 }
 
-export default LocationAmenities
+export default CoworkingTopAmenities

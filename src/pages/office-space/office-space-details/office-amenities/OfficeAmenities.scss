@@ -1,0 +1,22 @@
+.office_amenities_sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .amenities_item {
+        padding: 10px 0px;
+        img {
+            width: 45px;
+            margin-bottom: 6px;
+        }
+        h6 {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+    }
+}

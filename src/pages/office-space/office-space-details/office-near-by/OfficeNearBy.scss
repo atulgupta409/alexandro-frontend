@@ -1,0 +1,26 @@
+.office_near_by_sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .place_item {
+        position: relative;
+        padding-left: 100px;
+        margin-top: 15px;
+        img {
+            position: absolute;
+            left: 0px;
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 0;
+        }
+    }
+}

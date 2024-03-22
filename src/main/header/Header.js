@@ -9,8 +9,7 @@ const Header = (props) => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   const navItems = [
-    // { label: 'Home', href: '/', active: true },
-    { label: 'Coworking', dropdown: true, items: [
+    { label: 'Coworking Space', dropdown: true, items: [
       {
         label: "Coworking space in Golf Course Road Gurgaon",
         href: "/coworking-space-on-golf-course-road",
@@ -52,40 +51,82 @@ const Header = (props) => {
         href: "/",
       },
     ]},
-    { label: 'Coliving', dropdown: true, items: [
+    { label: 'Office Space', dropdown: true, items: [
       {
-        label: "Coliving in Bangalore",
+        label: "Office Space in Golf Course Road Gurgaon",
+        href: "/gurgaon/commercial-office-space-in-golf-course-road-gurgaon",
+      },
+      {
+        label: "Office Space on Golf Course Extn. Road Gurgaon",
         href: "/",
       },
       {
-        label: "Coliving in Gurgaon",
+        label: "Office Space in MG Road Gurgaon",
         href: "/",
       },
       {
-        label: "Coliving in Hyderabad",
+        label: "Office Space in Sohna Road Gurgaon",
         href: "/",
       },
       {
-        label: "Coliving in Pune",
+        label: "Office Space in DLF Cyber City",
         href: "/",
       },
       {
-        label: "Coliving in Indore",
+        label: "Office Space in Udyog Vihar Gurgaon",
         href: "/",
       },
       {
-        label: "Coliving in Mumbai",
+        label: "Office Space in NH-8 Gurgaon",
         href: "/",
       },
       {
-        label: "Coliving in Noida",
+        label: "Office Space in Sector 32",
         href: "/",
       },
       {
-        label: "Coliving in Delhi",
+        label: "Office Space near Metro Stations",
         href: "/",
-      }
+      },
+      {
+        label: "Office Space in Gurgaon",
+        href: "/",
+      },
     ]},
+    // { label: 'Coliving', dropdown: true, items: [
+    //   {
+    //     label: "Coliving in Bangalore",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Gurgaon",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Hyderabad",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Pune",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Indore",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Mumbai",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Noida",
+    //     href: "/",
+    //   },
+    //   {
+    //     label: "Coliving in Delhi",
+    //     href: "/",
+    //   }
+    // ]},
   ];
 
 

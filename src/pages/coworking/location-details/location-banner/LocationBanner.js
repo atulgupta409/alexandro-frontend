@@ -3,7 +3,7 @@ import "./LocationBanner.scss"
 
 const LocationBanner = () => {
   return (
-    <section className='location_banner'>
+    <section className='coworking_location_banner'>
       <div className="container">
         <div className="row">
             <div className="col-md-12">

@@ -1,0 +1,23 @@
+.coworking_all_location {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .all_locations {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        .location_item {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            flex: 0 0 auto;
+            width: 18%;
+            margin: 0px 1% 20px;
+            h5 {
+                font-size: 15px;
+                text-align: center;
+                padding: 10px 5px;
+                margin-bottom: 0px;
+                line-height: 20px;
+            }
+        }
+    }
+}

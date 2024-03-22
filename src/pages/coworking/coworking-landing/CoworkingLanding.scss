@@ -1,0 +1,18 @@
+.explore_coworking_location {
+    background: #f1fbfb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .explore_location_list {
+        padding: 0px;
+        margin: 20px 0px 0px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        li {
+            width: 25%;
+            font-size: 14px;
+            padding: 4px 5px;
+        }
+    }
+}

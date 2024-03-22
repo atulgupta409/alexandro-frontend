@@ -1,0 +1,20 @@
+.office_flexible_plans_sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .plan_item {
+        box-shadow:5px 5px 5px #ccc;
+        h4 {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 40px;
+            font-weight: 600;
+            color: #565758;
+            line-height: 50px;
+            margin-bottom: 0px;
+        }
+    }
+}

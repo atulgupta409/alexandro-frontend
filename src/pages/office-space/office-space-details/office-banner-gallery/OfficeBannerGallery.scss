@@ -1,0 +1,20 @@
+.officespace_image_gallery {
+    .col-md-6, .col-md-3 {
+        padding: 1px;
+        .banner_image_item.main_img {
+            img {
+                min-height: 478px;
+                object-fit: cover;
+            }
+        }
+        .banner_image_item {
+            img {
+                height: 238px;
+                object-fit: cover;
+            }
+        }
+        .bottom_space {
+            margin-bottom: 2px;
+        }
+    }
+}

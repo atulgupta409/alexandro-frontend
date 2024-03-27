@@ -1,0 +1,18 @@
+.explore_all_location {
+    background: #f1fbfb;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .explore_location_list {
+        padding: 0px;
+        margin: 20px 0px 0px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        li {
+            width: 25%;
+            font-size: 14px;
+            padding: 4px 5px;
+        }
+    }
+}

@@ -129,7 +129,7 @@ const Footer = (props) => {
         },
         {
             name: "Office Spaces",
-            url: ""
+            url: "/office-space-in-gurgaon"
         }
     ]
 

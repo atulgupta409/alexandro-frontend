@@ -10,7 +10,7 @@ const CoworkingFlexiblePlans = () => {
         {
             image: hotDeskImg,
             title: "Hot Desk",
-            price: "₹ 8,000/-*",
+            price: "₹ 5,000/-*",
             tag: "Individual",
             className: "blue_text",
             pricePoints: [
@@ -24,7 +24,7 @@ const CoworkingFlexiblePlans = () => {
         {
             image: dedicatedDeskImg,
             title: "Dedicated Desk",
-            price: "₹ 9,000/-*",
+            price: "₹ 7,000/-*",
             tag: "Team",
             className: "yellow_text",
             pricePoints: [

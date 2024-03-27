@@ -10,6 +10,7 @@ import CoworkingDetail from './pages/coworking/coworking-details/CoworkingDetail
 import OfficeSpaceDetails from './pages/office-space/office-space-details/OfficeSpaceDetails';
 import OfficeSpaceLocation from './pages/office-space/office-space-location/OfficeSpaceLocation';
 import CoworkingLanding from './pages/coworking/coworking-landing/CoworkingLanding';
+import OfficeSpaceLanding from './pages/office-space/office-space-landing/OfficeSpaceLanding';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
         <Route exact path="/coworking-space-in-gurgaon" element={<CoworkingLanding />} />
         <Route exact path="/coworking-space-on-golf-course-road" element={<LocationDetail />} />
         <Route exact path="/coworking-space/innov8-orchid-centre-golf-course-road" element={<CoworkingDetail />} />
+        <Route exact path="/office-space-in-gurgaon" element={<OfficeSpaceLanding />} />
         <Route exact path="/gurgaon/commercial-office-space-in-golf-course-road-gurgaon" element={<OfficeSpaceLocation />} />
         <Route exact path="/gurgaon/office-space-in-global-foyer-sector-43-gurgaon" element={<OfficeSpaceDetails />} />
       </Routes>

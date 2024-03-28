@@ -1,0 +1,42 @@
+.city_heading_area {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 400;
+        text-transform: capitalize;
+        img {
+            width: 40px;
+            position: relative;
+            top: -5px;
+            left: 10px;
+        }
+    }
+}
+
+.micro_location {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ul {
+        margin-bottom: 0 !important;
+        padding-left: 0 !important;
+        border-radius: 8px;
+        box-shadow: 0 0 12px -3px rgba(0,0,0,.1);
+        li {
+            border-bottom: 1px solid #f7f7f7;
+            color: #444;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            list-style-type: none;
+            padding: 10px;
+            transition: all .3s ease-in-out;
+        }
+    }
+}
+
+.property_list {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}

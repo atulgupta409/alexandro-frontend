@@ -47,7 +47,7 @@ const Footer = (props) => {
     const colivingLinks = [
         {
             name: "Coliving Space Bangalore",
-            url: ""
+            url: "/coliving/bangalore/"
         },
         {
             name: "Coliving Space Hyderabad",
